@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RS sait</title>
+    <link rel="stylesheet" href="./libs/autoComplete.js-10.2.7/dist/css/autoComplete.01.css">
+    <link rel="stylesheet" href="./libs/custom-select/custom-select.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+
+<!-- =========== HEADER =========== -->
+    <header class="header">
+        <div class="container ">
+            <div class="header-wraper">
+                <nav class=" header-nav nav">
+                    <div class="nav-logo">
+                        <a href="#" class="nav-logo_link">
+                            <img class="nav-logo_img" src="./img/logo.png" alt="logo">
+                        </a>
+                    </div>
+                    <ul class="nav-list ">
+                        <li class="nav-list_item ">
+                            <a href="#" class="nav-list_link active">Home</a>
+                        </li>
+                        <li class="nav-list_item">
+                            <a href="#" class="nav-list_link">Hotels</a>
+                        </li>
+                        <li class="nav-list_item">
+                            <a href="#" class="nav-list_link">Restaurants</a>
+                        </li>
+                        <li class="nav-list_item">
+                            <a href="#" class="nav-list_link">Tours</a>
+                        </li>
+                        <li class="nav-list_item">
+                            <a href="#" class="nav-list_link">Destinations
+                            </a>
+                        </li>
+                        <li class="nav-list_item">
+                            <a href="#" class="nav-list_link">Activities</a>
+                        </li>
+                        <li class="nav-list_item">
+                            <a href="#" class="nav-list_link">Contact</a>
+                        </li>
+                    </ul>
+                    </ul>
+                    <div class="nav-accaunt">
+                        <div class="nav-accaunt_info">
+                            <span class="nav-accaunt_info-top">Holla,</span>
+                            <span class="nav-accaunt_info-bottom"> Ales Nesetril</span>
+                        </div>
+                        <div class="nav-accaunt_avatar">
+                            <a href="" class="nav-accaunt__link">
+                                <img src="./img/tNCH0sKSZbA.jpg" alt="avatar" class="nav-accaunt_img">
+                            </a>
+                        </div>
+                    </div>
+                </nav>
+
+                <div class="header-title">
+                    <div class="header-title_top">
+                        <h1>Discover the most engaging places</h1>
+                    </div>
+                    <div class="header-title_btn">
+                        <a href="#" class="header-btn_link">
+                            <div class="header-btn_box">
+                                <span><img src="./img/btn-title.png" alt=""></span> Discover on 3D Globe
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+<!-- ===============Form Header=============== -->
+                <form action="#" class="form">
+                    <div class="form-wraper form-location">
+                        <label class="form__label" for="autoComplete">location</label>
+                        <input class="form__input" id="autoComplete" type="text" placeholder="Explore nearby destinations">
+                    </div>
+
+                    <div class="form-wraper form-activity">
+                        <label class="form__label" for="activity">Activity</label>
+                        <select class="form__select select-activity" id="activity">
+                            <option value="all"> All Activities</option>
+                            <option value="all"> Extreme</option>
+                            <option value="all"> Footbol</option>
+                            <option value="all"> Tenis</option>
+                        </select>
+                    </div>
+
+                    <div class="form-wraper form-when">
+                        <label class="form__label" for="when" >When</label>
+                        <input class="form__input" type="date" id="when" placeholder="Choose a Date">
+                    </div>
+
+                    <div class="form-wraper form-Guests">
+                        <label class="form__label" for="guests">Guests </label>
+                        <select class="form__select select-guests" id="guests">
+                            <option value="1 guest"> 1 guest</option>
+                            <option value="2 guest"> 2 guest</option>
+                            <option value="3 guest"> 3 guest</option>
+                            <option value="4 guest fo more"> 4 guest fo more</option>
+                        </select>
+                    </div>
+
+                    <button class="form__button">
+                        <img src="./img/search.svg" alt="search" class="form__button-img">
+                    </button>
+
+                </form>
+
+            </div>
+        </div>
+    </header>
+
+    <script src="./libs/autoComplete.js-10.2.7/dist/autoComplete.min.js"></script>
+    <script src="./JS/input-autocom.js"></script>
+    <script src="./libs/custom-select/custom-select.min.js" ></script>
+    <script src="./JS/main.js" ></script>
+
+
+</body>
+
+</html>
